@@ -1,7 +1,8 @@
 package curriculum.a;
 
 public class Question1 {
-	public static void main(String[] args) {ln
+	public static void main(String[] args) {
+	byte byteNum= 0;
 	byteNum = 10;    // 値（初期値）を代入
 	short shortNum = 0;  // short型の変数 shortNum を宣言
 	shortNum=100;

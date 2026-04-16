@@ -8,15 +8,15 @@ public class Question1 {
 	shortNum=100;
 	int intNum=0;       // int型の変数 intNum を宣言
 	intNum=1000;
-	long longNum=0;     // long型の変数 longNum を宣言
-	longNum=10000;
+	long longNum=0L;     // long型の変数 longNum を宣言
+	longNum=10000L;
 	float floatNum=0.0f; // float型の変数 floatNum を宣言
 	floatNum=9.5f;
 	double doubleNum=0.0; // double型の変数 doubleNum を宣言
 	doubleNum=10.5;
-	char letter=' ';      // char型の変数 letter を宣言
+	char letter='\u0000';      // char型の変数 letter を宣言
 	letter='a';
-	String letters=" ";   // String型の変数 letters を宣言
+	String letters="null";   // String型の変数 letters を宣言
 	letters="ハロー";
 	boolean isBoolean=false; // boolean型の変数 isBoolean を宣言
 	isBoolean=true;
@@ -34,7 +34,7 @@ public class Question1 {
     System.out.println(letters);
     System.out.println(isBoolean);
     
- //  ここから QuestionQ3 の回答
+    //  ここから QuestionQ3 の回答
     System.out.println(byteNum + shortNum + intNum + longNum); // 11110を出力 (10 + 100 + 1000 + 10000)
     System.out.println(byteNum + byteNum);// 20を出力 (10 + 10)
     System.out.println(letter + letters + isBoolean);//a ハロー trueを出力

@@ -63,6 +63,18 @@ public class Question1 {
 	System.out.println("最終スコア：" + score);
 	
 	//ここからQuestion8の回答
+	double price =99.99;  // double型の変数 price を宣言し、99.99 を代入
+	int intPrice = (int)price;  //priceをintに変換（大から小、強制型）
+	System.out.println("整数価格: " + intPrice);
 	
+	//ここからQuestion９の回答
+	String numStr="123";
+	int num = Integer.parseInt(numStr); // 文字列を int に変換
+	System.out.println("変換後の値：" + (num + 10)); // 出力: 133
+	
+	//ここからQuestion10の回答
+	num=50;
+	String str = String.valueOf(num); // int を 文字列 に変換
+	System.out.println("得点：" + str +"点"); //出力: 得点：50点
 	}
 	}

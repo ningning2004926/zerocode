@@ -61,5 +61,8 @@ public class Question1 {
 	int score=80;
 	score= 20 + score;
 	System.out.println("最終スコア：" + score);
+	
+	//ここからQuestion8の回答
+	
 	}
 	}

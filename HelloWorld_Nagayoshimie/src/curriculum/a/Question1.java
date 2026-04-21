@@ -76,5 +76,21 @@ public class Question1 {
 	num=50;
 	String str = String.valueOf(num); // int を 文字列 に変換
 	System.out.println("得点：" + str +"点"); //出力: 得点：50点
+	
+	//ここからQuestion11の回答
+	
+	int a =10; //int型変数 a に 10を代入
+	int b =20; //int型変数 b に 20を代入
+	boolean result = (a < b) ? true : false; //aがbより小さいかどうかをboolean変数resultに代入
+	System.out.println(result);
+	
+	//ここからQuestion12の回答
+	int x =15;
+	System.out.println(x >= 10? "ok" : "NG");
+	
+	//ここからQuestion13の回答
+	String text="私はJavaが好きです。Javaは楽しい！";
+	String newText = text.replace("Java", "Python");
+	System.out.println(newText);
 	}
 	}

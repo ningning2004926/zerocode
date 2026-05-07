@@ -16,7 +16,7 @@ public class Question1 {
 	doubleNum=10.5;
 	char letter='\u0000';      // char型の変数 letter を宣言
 	letter='a';
-	String letters="null";   // String型の変数 letters を宣言
+	String letters=null;   // String型の変数 letters を宣言
 	letters="ハロー";
 	boolean isBoolean=false; // boolean型の変数 isBoolean を宣言
 	isBoolean=true;
@@ -89,7 +89,7 @@ public class Question1 {
 	System.out.println(x >= 10? "ok" : "NG");
 	
 	//ここからQuestion13の回答
-	String text="私はJavaが好きです。Javaは楽しい！";
+	String text="私はJavaが好きです。avaは楽しい！";
 	String newText = text.replace("Java", "Python");
 	System.out.println(newText);
 	}

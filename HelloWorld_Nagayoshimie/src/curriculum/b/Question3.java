@@ -66,9 +66,10 @@ public class Question3 {
 		        while (input != 0) {
 		        System.out.print("数値を入力してください: ");
 		        input = sc.nextInt();
+		        }
 		        System.out.println("終了しました");
 		        sc.close();
-		        }
+		        
 		        //Question11
 		        for (int j = 1; j <= 9; j++) {
 		        for (int k = 1; k <= 9; k++) {

@@ -7,7 +7,7 @@ public class question2 {
 
 		//Qyestion1
 		int score=75;
-		if (score >= 60);
+		if (score >= 60)
 		System.out.println("合格です。");
 		
 		//Question2
@@ -62,6 +62,7 @@ public class question2 {
         } else {
         System.out.println("負の数です");
         sc.close();
+        }
             
             //Question6
             
@@ -85,7 +86,7 @@ public class question2 {
             else if(score1>=70) {
             	System.out.println("良");
             }
-            else if (score>= 50) {
+            else if (score1>= 50) {
             	System.out.println("可");
             }
             else
@@ -149,7 +150,7 @@ public class question2 {
             }
             
             
-        }}}
+        }}
             
             
 		

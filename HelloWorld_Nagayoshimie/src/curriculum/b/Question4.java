@@ -82,6 +82,44 @@ public class Question4 {
                 System.out.println(array[k][j]);
             }
         }
+       //Question8
+        int[][] array1 = {{10, 20, 30}, {40, 50, 60}, {70, 80, 90}};
+        int sum1 = 0;
+        for (int[] row : array1) {
+            for (int num : row) {
+                sum1 += num;
+            }
+        }
 
+        System.out.println("合計値: " + sum1);
+        
+        //Question9
+        int[][] array2 = {{12, 15, 8}, {6, 19, 25}, {30, 2, 10}};
+        int max2 = array2[0][0];
+        int min2 = array2[0][0];
+
+        for (int[] row : array2) {
+            for (int num : row) {
+                if (num > max2) {
+                    max2 = num;
+                }
+                if (num < min2) {
+                    min2 = num;
+                }
+            }
+        }
+
+        System.out.println("最大値: " + max2);
+        System.out.println("最小値: " + min2);
+        
+        //Question10
+        int[][][] array3= {{{1, 2}, {3, 4}}, {{5, 6}, {7, 8}}};
+        for (int[][] matrix : array3) {
+            for (int[] row : matrix) {
+                for (int num : row) {
+                    System.out.println(num);
+                }
+            }
+        }
     }
 }
